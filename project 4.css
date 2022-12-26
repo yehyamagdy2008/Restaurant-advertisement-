@@ -28,6 +28,7 @@ li {
     url("./img/bg-home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 .Home h1 {
   color: white;
@@ -208,6 +209,7 @@ li {
   padding-top: 50px;
   padding-bottom: 50px;
   background: linear-gradient(rgb(80, 80, 80), rgb(14, 14, 14));
+  overflow: hidden;
 }
 .container-servisec {
   display: flex;
