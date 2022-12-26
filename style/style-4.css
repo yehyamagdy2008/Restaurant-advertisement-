@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Tajawal", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.header {
+  box-shadow: 0 0 10px rgb(75, 75, 75);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  gap: 5px;
+  display: flex;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.header div img {
+  width: 120px;
+}
+.header div {
+  width: 100px;
+  margin-right: 30px;
+}
+.child {
+  width: 250px;
+  box-shadow: 0 0 10px rgb(75, 75, 75);
+  height: 300px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.home {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: center;
+}
+.child img {
+  position: relative;
+  bottom: 100px;
+}
+.child h1 {
+  margin-top: -100px;
+  margin-right: 10px;
+  font-size: 21px;
+}
+.content {
+  text-align: end;
+}
+hr {
+  margin-top: 8px;
+  margin-inline: 20px;
+  margin-bottom: 10px;
+}
+.content span {
+  font-size: 13px;
+  margin-right: 15px;
+}
+.content div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-inline: 10px;
+  margin-top: 30px;
+}
+.content div span:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+}
+.content div span:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+}
+.child-2 .content div {
+  margin-top: 10px;
+}
+.child-1 .content div {
+  margin-top: 10px;
+}
+.child-3 .content div {
+  margin-top: 30px;
+}
+.child-8 .content div {
+  margin-top: 12px;
+}
